@@ -12,20 +12,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@Configuration
+//@Configuration
 public class SecurityConfig{
 
-    @Bean
+    //@Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authorizeRequests().anyRequest().authenticated();
         http.formLogin();
-        http.httpBasic();
-        http.exceptionHandling().authenticationEntryPoint(new AuthenticationEntryPoint() {
-            @Override
-            public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {
-                System.out.println("custom entryPoint");
-            }
-        });
+        http.httpBasic().authenticationEntryPoint(new CustomAuthenticationEntryPoint());
+        http.exceptionHandling().authenticationEntryPoint((request, response, authException) -> System.out.println("custom entryPoint"));
         return http.build();
     }
 

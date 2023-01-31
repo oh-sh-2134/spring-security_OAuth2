@@ -3,7 +3,7 @@ package springboot.springsecurity_OAuth2.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import springboot.springsecurity_OAuth2.model.ProviderUser;
-import springboot.springsecurity_OAuth2.model.User;
+import springboot.springsecurity_OAuth2.model.user.User;
 import springboot.springsecurity_OAuth2.repository.UserRepository;
 
 @Service

@@ -1,7 +1,7 @@
 package springboot.springsecurity_OAuth2.repository;
 
 import org.springframework.stereotype.Repository;
-import springboot.springsecurity_OAuth2.model.User;
+import springboot.springsecurity_OAuth2.model.user.User;
 
 import java.util.HashMap;
 import java.util.Map;

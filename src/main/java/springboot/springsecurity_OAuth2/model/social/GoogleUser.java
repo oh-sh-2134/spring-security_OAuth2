@@ -1,7 +1,8 @@
-package springboot.springsecurity_OAuth2.model;
+package springboot.springsecurity_OAuth2.model.social;
 
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.core.user.OAuth2User;
+import springboot.springsecurity_OAuth2.model.OAuth2ProviderUser;
 
 public class GoogleUser extends OAuth2ProviderUser {
 

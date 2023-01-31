@@ -1,4 +1,4 @@
-package springboot.springsecurity_OAuth2.model;
+package springboot.springsecurity_OAuth2.model.user;
 
 import lombok.Builder;
 import lombok.Data;

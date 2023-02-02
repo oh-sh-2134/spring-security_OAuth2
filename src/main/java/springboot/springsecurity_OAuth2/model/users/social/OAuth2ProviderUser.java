@@ -1,5 +1,6 @@
-package springboot.springsecurity_OAuth2.model;
+package springboot.springsecurity_OAuth2.model.users.social;
 
+import springboot.springsecurity_OAuth2.model.users.ProviderUser;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

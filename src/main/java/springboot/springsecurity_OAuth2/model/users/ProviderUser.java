@@ -1,4 +1,4 @@
-package springboot.springsecurity_OAuth2.model;
+package springboot.springsecurity_OAuth2.model.users;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.oauth2.core.user.OAuth2User;

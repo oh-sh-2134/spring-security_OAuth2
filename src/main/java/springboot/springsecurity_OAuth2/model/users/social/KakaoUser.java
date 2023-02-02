@@ -1,9 +1,8 @@
-package springboot.springsecurity_OAuth2.model.social;
+package springboot.springsecurity_OAuth2.model.users.social;
 
+import springboot.springsecurity_OAuth2.model.Attributes;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.core.user.OAuth2User;
-import springboot.springsecurity_OAuth2.model.Attributes;
-import springboot.springsecurity_OAuth2.model.OAuth2ProviderUser;
 
 import java.util.Map;
 

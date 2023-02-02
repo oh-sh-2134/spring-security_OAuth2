@@ -1,4 +1,4 @@
-package springboot.springsecurity_OAuth2.model.user;
+package springboot.springsecurity_OAuth2.model.users;
 
 import lombok.Builder;
 import lombok.Data;
@@ -12,10 +12,12 @@ public class User {
 
     private String registrationId;
     private String id;
+    private String ci;
     private String username;
     private String password;
     private String provider;
     private String email;
+    private String picture;
     private List<? extends GrantedAuthority> authorities;
 
 }

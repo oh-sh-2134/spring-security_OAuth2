@@ -1,9 +1,9 @@
-package springboot.springsecurity_OAuth2.converters;
+package springboot.springsecurity_OAuth2.common.converters;
 
 
-import springboot.springsecurity_OAuth2.model.FormUser;
-import springboot.springsecurity_OAuth2.model.ProviderUser;
-import springboot.springsecurity_OAuth2.model.user.User;
+import springboot.springsecurity_OAuth2.model.users.ProviderUser;
+import springboot.springsecurity_OAuth2.model.users.User;
+import springboot.springsecurity_OAuth2.model.users.form.FormUser;
 
 public final class UserDetailsProviderUserConverter implements ProviderUserConverter<ProviderUserRequest, ProviderUser> {
 
